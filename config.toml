@@ -1,0 +1,26 @@
+baseURL = "https://aymblog.github.io/"
+languageCode = "en-us"
+title = "aym"
+theme = "PaperMod"
+
+[params]
+  profileMode.enabled = true
+  profileMode.title = "aym"
+  profileMode.subtitle = "CyberSec student | white hat TBD" 
+  profileMode.imageUrl = "pp.jpg"
+  profileMode.imageTitle = ""
+  profileMode.imageWidth = 120
+  profileMode.imageHeight = 120
+  social = true
+ 
+[[params.profileMode.buttons]]
+  name = "whoami"
+  url = "/whoami"
+
+  [[params.socialIcons]]
+    name = "Github"
+    url = "https://github.com/sokayh"
+
+  [[params.socialIcons]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/aymen-benaissa/"
